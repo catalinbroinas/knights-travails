@@ -3,8 +3,6 @@ function KnightTravails() {
     const size = 8;
     const chessBoard = Array(size).fill(null).map(() => Array(size).fill(null));;
 
-    const getBoard = () => chessBoard;
-
     // Show shortest path from current location (start square) to destination (end square)
     const knightMoves = (startSquare, endSquare) => {
         // Define possible moves for a knight
