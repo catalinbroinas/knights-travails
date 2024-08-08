@@ -1,3 +1,7 @@
+// ========================
+// Tests for the `KnightTravails` module.
+// ========================
+
 import { KnightTravails } from "./knightsTravails.js";
 
 // Create an instance of KnightTravails

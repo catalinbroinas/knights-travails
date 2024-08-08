@@ -1,3 +1,11 @@
+// ========================
+// Module defining the `KnightTravails` factory function 
+// for solving the Knight's Tour problem on an 8x8 chessboard.
+// Includes methods:
+// - `KnightTravails()`: Initializes the chessboard.
+// - `knightMoves(startSquare, endSquare)`: Finds and prints the shortest path for a knight.
+// ========================
+
 function KnightTravails() {
     // Initialize the chessboard (8x8 matrix) with null
     const size = 8;
