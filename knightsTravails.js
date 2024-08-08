@@ -57,6 +57,12 @@ function KnightTravails() {
             });
         };
 
+        // Validate input positions
+        if (!isInBounds(startSquare[0], startSquare[1]) || !isInBounds(endSquare[0], endSquare[1])) {
+            console.log("Invalid start or end position.");
+            return;
+        }
+
         const start = [startSquare[0], startSquare[1]];
         const end = [endSquare[0], endSquare[1]];
         const path = bfs(start, end);
