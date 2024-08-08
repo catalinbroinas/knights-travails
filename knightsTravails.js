@@ -12,6 +12,9 @@ function KnightTravails() {
             [1, 2], [2, 1], [1, -2], [2, -1],
             [-1, 2], [-2, 1], [-1, -2], [-2, -1]
         ];
+
+        // Check if a position is within the bounds of the chessboard
+        const isInBounds = (x, y) => x >= 0 && x < size && y >= 0 && y < size;
     };
 
     return { knightMoves };
